@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Regression Suite">
+    <!--
+        This suite configuration defines two tests: File Upload Test and Dynamic Loading Test.
+        Each test is associated with a specific test class that contains the test logic.
+        The suite also includes a custom listener (TestListener) to capture screenshots on test success and failure.
+    -->
+    
+    <!-- Test: File Upload Test -->
+    <test name="File Upload Test">
+        <classes>
+            <!-- Specify the test class that contains the file upload test logic -->
+            <class name="tests.FileIsUploadedSuccessfullyTest" />
+        </classes>
+    </test>
+    
+    <!-- Test: Dynamic Loading Test -->
+    <test name="Dynamic Loading Test">
+        <classes>
+            <!-- Specify the test class that contains the dynamic loading test logic -->
+            <class name="tests.DynamicLoadingIsCompletedSuccessfullyTest" />
+        </classes>
+    </test>
+    
+    <!-- Listeners: Custom Listener for Screenshot Capture -->
+    <listeners>
+        <!-- Include the custom listener (TestListener) to capture screenshots -->
+        <listener class-name="utils.TestListener" />
+    </listeners>
+</suite>

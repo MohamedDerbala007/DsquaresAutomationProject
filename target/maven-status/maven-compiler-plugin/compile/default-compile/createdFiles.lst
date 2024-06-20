@@ -1,0 +1,5 @@
+pages\PageBase.class
+pages\DynamicLoadingPage.class
+pages\Example2Page.class
+pages\FileUploadPage.class
+pages\HomePage.class
