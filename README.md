@@ -105,9 +105,6 @@ TestNG generates test execution reports in the `test-output` directory. Screensh
 - **`DynamicLoadingIsCompletedSuccessfullyTest.java`**: Test class for the dynamic loading scenario.
 - **`FileIsUploadedSuccessfullyTest.java`**: Test class for the file upload scenario.
 
-### GitHub Repository
-
-Earn bonus points by delivering the project as a GitHub repository. This provides version control, collaboration features, and public access.
 
 ## Contribution
 
